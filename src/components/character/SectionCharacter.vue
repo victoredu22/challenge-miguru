@@ -1,5 +1,5 @@
 <template>
-  <div class="divTitles mt-4">
+  <div class="divTitles mt-4 mb-4">
     <div class="row justify-content-around">
       <div class="d-flex">
         <p class="float-start titleCard">
