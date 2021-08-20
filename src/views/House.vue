@@ -19,8 +19,7 @@ export default {
   methods:{
     async getHouse(idHouse){
       const {data} = await axiosNotToken(`houses/${idHouse}`);
-      this.house = {idUrlHouse:formatIdUrl(data.url),  ...data};
-     
+      this.house = {idUrlHouse:formatIdUrl(data.url), idCurrentLord: formatIdUrl(data.currentLord), ...data};
     }
   },
   created(){

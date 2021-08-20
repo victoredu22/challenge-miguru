@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="d-flex flex-wrap mt-4">
+    <div class="d-flex flex-wrap mt-1">
       <div class="col-12">
         <div class="d-flex justify-content-center">
           <h3><i class="fas fa-user"></i> {{ data.name }}</h3>
